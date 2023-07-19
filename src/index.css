@@ -92,6 +92,20 @@ a {
   transform: scale(1.1);
 }
 
+.header-hero {
+  background: rgba(0, 0, 0, 0.678);
+  position: relative;
+}
+
+.blur {
+  position: absolute;
+  margin: 100px 0 0 0;
+  width: 300px;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.795);
+  filter: blur(100px);
+}
+
 /* media queries */
 @media (min-width: 1536px) {
   .innerWidth {
