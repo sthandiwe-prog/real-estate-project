@@ -1,0 +1,50 @@
+.Hero {
+  color: white;
+  background: rgba(0, 0, 0, 0.678);
+}
+.Hero .hero-content {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 90px;
+}
+.Hero .hero-content .hero-left-content {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+.Hero .hero-content .hero-left-content .title {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.3;
+  z-index: 2;
+}
+.Hero .hero-content .hero-right-content img {
+  border-radius: 50px 0;
+  border: 5px solid white;
+}
+.Hero .hero-content .hero-search {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+}
+.Hero .hero-content .hero-search .fa-solid {
+  color: grey;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.Hero .hero-content .hero-search input {
+  outline: none;
+  border: none;
+}
+.Hero .hero-content .hero-numbers {
+  gap: 35px;
+}
+.Hero .hero-content .hero-numbers .number {
+  font-size: 35px;
+}
+.Hero .hero-content .hero-numbers .number .plus-sign {
+  color: #637fee;
+}/*# sourceMappingURL=Hero.css.map */

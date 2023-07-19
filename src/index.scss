@@ -1,3 +1,12 @@
+$primary: #1f3e72;
+$secondary: rgba(255, 255, 255, 0.78);
+$black: #131110;
+$blue-gradient: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
+$orange-gradient: linear-gradient(270deg, #ffb978 0%, #ff922d 100%);
+$blue: #4066ff;
+$lightBlue: #eeeeff;
+$shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +35,6 @@ a {
   align-items: center;
   flex-wrap: wrap;
 }
-
 .flexStart {
   display: flex;
   justify-content: flex-start;
@@ -45,14 +53,12 @@ a {
   align-items: center;
   flex-direction: column;
 }
-
 .flexColStart {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
-
 .flexColEnd {
   display: flex;
   flex-direction: column;
@@ -70,7 +76,6 @@ a {
   color: rgb(192, 188, 188);
   font-size: 14px;
 }
-
 .orangeText {
   color: orange;
   font-size: 24px;
@@ -86,7 +91,6 @@ a {
   transition: all 300ms ease-in;
   background: grey;
 }
-
 .button:hover {
   cursor: pointer;
   transform: scale(1.1);
@@ -99,16 +103,19 @@ a {
     margin: auto;
   }
 }
+
 @media (min-width: 640px) {
   .paddings {
     padding: 64px;
   }
 }
+
 @media (min-width: 1280px), (min-width: 768px) {
   .paddings {
     padding: 32px;
   }
 }
+
 @media (max-width: 640px) {
   .primaryText {
     font-size: 24px;
@@ -116,4 +123,4 @@ a {
   .orangeText {
     font-size: 20px;
   }
-}/*# sourceMappingURL=index.css.map */
+}
