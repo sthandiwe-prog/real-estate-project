@@ -1,0 +1,72 @@
+.Residencies {
+  // background: rgba(128, 128, 128, 0.76);
+  .r-content {
+    overflow: hidden;
+    position: relative;
+  }
+  .r-heading {
+    margin-bottom: 35px;
+  }
+  .r-card {
+    gap: 10px;
+    padding: 16px;
+    border-radius: 10px;
+    max-width: max-content;
+    margin: auto;
+    transition: all 130ms ease-in;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 250px;
+    }
+    .r-price {
+      font-size: 20px;
+      font-weight: 600;
+      .dollar-sign {
+        color: orange;
+      }
+    }
+    span:nth-child(3) {
+      font-size: 25px;
+    }
+    span:nth-child(4) {
+      font-size: 12px;
+      width: 250px;
+    }
+  }
+  .r-card:hover {
+    cursor: pointer;
+    scale: 1.022;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(136, 160, 255, 0.46) 217.91%
+    );
+    box-shadow: 0px 0 21px -8px rgba(136, 160, 255, 0.719);
+  }
+  .swiper-horizontal {
+    overflow: visible;
+  }
+  .buttons {
+    position: absolute;
+    top: -64px;
+    right: 0;
+    button {
+      padding: 8px 15px;
+      background: rgba(255, 255, 255, 0.78);
+      border: 2px solid rgba(136, 160, 255, 0.25);
+      border-radius: 5px;
+      font-size: 15px;
+      font-weight: bold;
+      &:hover {
+        background: rgba(136, 160, 255, 0.144);
+        cursor: pointer;
+      }
+    }
+    button:nth-child(1) {
+      margin-right: 15px;
+    }
+  }
+}
