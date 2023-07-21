@@ -1,0 +1,43 @@
+.Value .v-content .left-content {
+  flex: 1;
+}
+.Value .v-content .left-content img {
+  border: 5px solid rgba(136, 160, 255, 0.25);
+  border-radius: 210px 210px 0 0;
+  width: 460px;
+  height: 550px;
+}
+.Value .right-content {
+  flex: 1;
+}
+.Value .right-content .accordion {
+  margin-top: 25px;
+  border: none;
+}
+.Value .right-content .accordion .accItem {
+  border: 1px solid #eeeeff;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  overflow: hidden;
+  box-shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+  border-radius: 6px;
+}
+.Value .right-content .accordion .accButton {
+  padding: 15px;
+  width: 100%;
+  cursor: pointer;
+  background: white;
+  justify-content: space-between;
+}
+.Value .right-content .accordion .accButton .heading {
+  font-size: 25px;
+  font-weight: bold;
+}
+.Value .right-content .accordion .accButton .icon {
+  border-radius: 5px;
+  padding: 10px;
+  background: #eeeeff;
+}
+.Value .right-content .accordion .accButton .icon svg {
+  fill: #4066ff;
+}/*# sourceMappingURL=Value.css.map */

@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Companies from "./components/Companies";
 import Residencies from "./components/Residencies";
+import Value from "./components/Value";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -17,6 +18,7 @@ root.render(
     </div>
     <Companies />
     <Residencies />
+    <Value />
   </React.StrictMode>
 );
 
