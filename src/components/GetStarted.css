@@ -1,0 +1,17 @@
+.GetStarted .get-started {
+  background: #4066ff;
+  border-radius: 9px;
+}
+.GetStarted .get-started .heading {
+  font-size: 40px;
+  color: white;
+}
+.GetStarted .get-started .subscription {
+  text-align: center;
+}
+.GetStarted .get-started .button {
+  color: white;
+  font-size: 20px;
+  background: rgba(136, 160, 255, 0.048);
+  border: 1px solid white;
+}/*# sourceMappingURL=GetStarted.css.map */

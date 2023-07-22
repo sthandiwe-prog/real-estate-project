@@ -32,12 +32,4 @@
 .Value .right-content .accordion .accButton .heading {
   font-size: 25px;
   font-weight: bold;
-}
-.Value .right-content .accordion .accButton .icon {
-  border-radius: 5px;
-  padding: 10px;
-  background: #eeeeff;
-}
-.Value .right-content .accordion .accButton .icon svg {
-  fill: #4066ff;
 }/*# sourceMappingURL=Value.css.map */

@@ -97,6 +97,22 @@ a {
   position: relative;
 }
 
+.icon {
+  border-radius: 5px;
+  padding: 10px;
+  background: #eeeeff;
+}
+
+.icon svg {
+  fill: #4066ff;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
 .blur {
   position: absolute;
   margin: 100px 0 0 0;

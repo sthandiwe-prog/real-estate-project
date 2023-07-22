@@ -18,8 +18,10 @@
   z-index: 2;
 }
 .Hero .hero-content .hero-right-content img {
-  border-radius: 100px 100px 0 0;
   border: 5px solid white;
+  border-radius: 210px 210px 0 0;
+  width: 460px;
+  height: 550px;
 }
 .Hero .hero-content .hero-search {
   display: flex;

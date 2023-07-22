@@ -1,0 +1,16 @@
+.Footer {
+  margin-bottom: 40px;
+}
+.Footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.Footer .footer-content .left-f img {
+  margin-bottom: 20px;
+}
+.Footer .footer-content .right-f .info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 20px;
+}/*# sourceMappingURL=Footer.css.map */
