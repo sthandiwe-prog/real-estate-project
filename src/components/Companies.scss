@@ -5,3 +5,12 @@
     width: 144px;
   }
 }
+@media (max-width: 768px) {
+  .Companies {
+    flex-direction: column;
+    gap: 12px;
+    img {
+      width: 135px;
+    }
+  }
+}

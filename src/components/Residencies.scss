@@ -1,5 +1,4 @@
 .Residencies {
-  // background: rgba(128, 128, 128, 0.76);
   .r-content {
     overflow: hidden;
     position: relative;
@@ -67,6 +66,26 @@
     }
     button:nth-child(1) {
       margin-right: 15px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .Residencies {
+    .r-card {
+      margin-top: 50px;
+    }
+
+    .r-heading {
+      align-items: center;
+    }
+    .buttons {
+      position: absolute;
+      top: -10px;
+      right: 190px;
+      button {
+        padding: 6px 10px;
+      }
     }
   }
 }

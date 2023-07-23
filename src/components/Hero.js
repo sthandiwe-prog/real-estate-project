@@ -1,13 +1,19 @@
 import React from "react";
 import "./Hero.css";
+import { motion } from "framer-motion/dist/framer-motion";
 export default function Hero() {
   return (
     <section className="Hero">
       <div className=" paddings innerWidth  hero-content">
         <div className="hero-left-content">
-          <div className="title">
+          <motion.div
+            initial={{ y: "32px", opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 2, type: "linear" }}
+            className="title"
+          >
             Discover <br /> Most Suitable <br /> Property
-          </div>
+          </motion.div>
           <span className="secondaryText">
             Find a variety of properties that suit you very easilty <br />{" "}
             Forget all difficulties in finding a residence for you
@@ -39,9 +45,14 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        <div className="hero-right-content">
+        <motion.div
+          initial={{ x: "32px", opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          transition={{ duration: 2, type: "linear" }}
+          className="hero-right-content"
+        >
           <img src="./hero-image.png" alt="hero" width="390px" />
-        </div>
+        </motion.div>
       </div>
     </section>
   );

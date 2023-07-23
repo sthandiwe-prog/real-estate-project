@@ -38,3 +38,29 @@
     }
   }
 }
+
+@media (max-width: 950px) {
+  .Value {
+    .v-content {
+      flex-direction: column;
+      .left-content {
+        img {
+          width: 300px;
+          height: 100%;
+        }
+      }
+      .right-content {
+        align-items: center;
+
+        .small-text {
+          text-align: center;
+        }
+        .accordion {
+          .heading {
+            font-size: 19px;
+          }
+        }
+      }
+    }
+  }
+}

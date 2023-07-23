@@ -24,7 +24,7 @@ export default function Value() {
           {" "}
           <span className="orangeText"> Our Value</span>
           <span className="primaryText"> Value We Give You</span>
-          <span className="secondaryText">
+          <span className="secondaryText small-text">
             {" "}
             We always ready to help by providijng the best services for you.{" "}
             <br /> We beleive a good blace to live can make your life better

@@ -18,3 +18,22 @@
     }
   }
 }
+
+@media (max-width: 800px) {
+  .GetStarted {
+    margin: 0 20px;
+    .get-started {
+      justify-content: center;
+
+      .heading {
+        font-size: 30px;
+        text-align: center;
+      }
+
+      .button {
+        color: white;
+        font-size: 10px;
+      }
+    }
+  }
+}

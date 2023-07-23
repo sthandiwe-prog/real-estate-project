@@ -32,4 +32,23 @@
 .Value .right-content .accordion .accButton .heading {
   font-size: 25px;
   font-weight: bold;
+}
+
+@media (max-width: 950px) {
+  .Value .v-content {
+    flex-direction: column;
+  }
+  .Value .v-content .left-content img {
+    width: 300px;
+    height: 100%;
+  }
+  .Value .v-content .right-content {
+    align-items: center;
+  }
+  .Value .v-content .right-content .small-text {
+    text-align: center;
+  }
+  .Value .v-content .right-content .accordion .heading {
+    font-size: 19px;
+  }
 }/*# sourceMappingURL=Value.css.map */

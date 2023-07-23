@@ -48,4 +48,32 @@
 }
 .Hero .hero-content .hero-numbers .number .plus-sign {
   color: #637fee;
+}
+
+@media (max-width: 900px) {
+  .Hero .hero-content {
+    flex-direction: column;
+  }
+  .Hero .hero-content .hero-left-content {
+    display: flex;
+    justify-content: center;
+  }
+  .Hero .hero-content .hero-left-content .title {
+    font-size: 35px;
+    line-height: 1.4;
+  }
+  .Hero .hero-content .hero-right-content {
+    display: flex;
+    justify-content: center;
+  }
+  .Hero .hero-content .hero-right-content img {
+    width: 300px;
+    height: 100%;
+  }
+  .Hero .hero-content .hero-search {
+    width: 90%;
+  }
+  .Hero .hero-content .hero-numbers .number {
+    font-size: 20px;
+  }
 }/*# sourceMappingURL=Hero.css.map */

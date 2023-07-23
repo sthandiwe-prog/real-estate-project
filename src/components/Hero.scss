@@ -53,3 +53,37 @@
     }
   }
 }
+
+@media (max-width: 900px) {
+  .Hero {
+    .hero-content {
+      flex-direction: column;
+
+      .hero-left-content {
+        display: flex;
+        justify-content: center;
+
+        .title {
+          font-size: 35px;
+          line-height: 1.4;
+        }
+      }
+      .hero-right-content {
+        display: flex;
+        justify-content: center;
+        img {
+          width: 300px;
+          height: 100%;
+        }
+      }
+      .hero-search {
+        width: 90%;
+      }
+      .hero-numbers {
+        .number {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

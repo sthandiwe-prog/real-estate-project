@@ -8,7 +8,16 @@ export default function Contact() {
     <section className="Contact">
       <div className=" flexCenter paddings innerWidth contactContent">
         <div className=" left-c ">
-          {" "}
+          <div className="headings">
+            <span className="orangeText"> Our Contact Us</span>
+            <span className="primaryText"> Easy to contact us</span>
+            <span className="secondaryText small-text">
+              {" "}
+              We always ready to help by providijng the best services for you.{" "}
+              <br />
+              We beleive a good blace to live can make your life better
+            </span>
+          </div>
           <div className="flexRow">
             {" "}
             <div className="flexStart row">

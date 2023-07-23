@@ -14,4 +14,21 @@
   font-size: 20px;
   background: rgba(136, 160, 255, 0.048);
   border: 1px solid white;
+}
+
+@media (max-width: 800px) {
+  .GetStarted {
+    margin: 0 20px;
+  }
+  .GetStarted .get-started {
+    justify-content: center;
+  }
+  .GetStarted .get-started .heading {
+    font-size: 30px;
+    text-align: center;
+  }
+  .GetStarted .get-started .button {
+    color: white;
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=GetStarted.css.map */

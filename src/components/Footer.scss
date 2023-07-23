@@ -18,3 +18,20 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .Footer {
+    .footer-content {
+      margin-top: 30px;
+      flex-direction: column;
+      align-items: center;
+      .left-f {
+        align-items: center;
+        margin-bottom: 30px;
+      }
+      .right-f {
+        align-items: center;
+      }
+    }
+  }
+}
