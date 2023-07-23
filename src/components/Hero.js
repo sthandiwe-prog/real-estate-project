@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import CountUp from "react-countup";
 import { motion } from "framer-motion/dist/framer-motion";
 export default function Hero() {
   return (
@@ -26,20 +27,40 @@ export default function Hero() {
           <div className=" flexStart hero-numbers">
             <div className="flexColStart">
               <span className="number">
-                9,000 <span className="plus-sign">+</span>
+                <CountUp start={8780} end={9000} delay={0}>
+                  {({ countUpRef }) => (
+                    <div>
+                      <span ref={countUpRef} />{" "}
+                      <span className="plus-sign">+</span>
+                    </div>
+                  )}
+                </CountUp>
               </span>
               <span className="secondaryText">Preminum Product</span>
             </div>
             <div className="flexColStart">
               <span className="number">
-                3,000 <span className="plus-sign">+</span>
+                <CountUp start={2780} end={3000} delay={0}>
+                  {({ countUpRef }) => (
+                    <div>
+                      <span ref={countUpRef} />{" "}
+                      <span className="plus-sign">+</span>
+                    </div>
+                  )}
+                </CountUp>
               </span>
               <span className="secondaryText">Happy Customer</span>
             </div>
             <div className="flexColStart">
               <span className="number">
-                26
-                <span className="plus-sign">+</span>
+                <CountUp start={0} end={26} delay={0}>
+                  {({ countUpRef }) => (
+                    <div>
+                      <span ref={countUpRef} />{" "}
+                      <span className="plus-sign">+</span>
+                    </div>
+                  )}
+                </CountUp>
               </span>
               <span className="secondaryText">Awards Winning</span>
             </div>
